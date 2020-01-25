@@ -1,0 +1,20 @@
+This document contains the list of features used by Masubuchi and Machida as well
+as a brief description as to how the feature should be calculated or where more information is available.
+
+In general, these shape parameters appear to mostly be coming from the list on this webpage.
+
+https://www.mvtec.com/doc/halcon/12/en/region_features.html
+
+1) Circularity
+
+Use either scipy or cv2.fitEllipse
+
+2) Compactness
+
+See https://en.wikipedia.org/wiki/Compactness_measure_of_a_shape
+
+3) Contlength
+
+See https://www.mvtec.com/doc/halcon/12/en/contlength.html
+
+4) 
